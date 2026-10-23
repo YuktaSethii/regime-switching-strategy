@@ -41,6 +41,19 @@ Can a regime-switching strategy, using different signals in different market con
 
 The equity curve grows steadily through 2008 and 2020 because the strategy is dollar-neutral and goes flat during detected crashes.
 
+## Results
+
+![Equity curve](equity_curve.png)
+*Cumulative return — steady growth through 2008 and COVID.*
+
+![Regime detection](regime_plot.png)
+*HMM regimes: crash (red) clusters at known crises (2002, 2008, 2020, 2022).*
+
+![IC by regime](ic_by_regime.png)
+*Signals are regime-dependent: momentum in calm, reversal in normal.*
+
+![Net of costs](sharpe_net_of_costs.png)
+*Survives realistic transaction costs (net Sharpe 0.64–0.75).*
 ---
 
 ## The Research Journey
